@@ -1,0 +1,133 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    min-height: 100vh;
+  }
+  
+  .intro {
+    flex: 1;
+    padding: 1rem 2rem;
+    text-align: left;
+  }
+  
+  .intro h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .highlight {
+    color: #007bff;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 2rem;
+  max-width: 500px;
+  line-height: 1.6;
+  text-align: left;
+  margin-left: 0;
+  padding-left:0;
+}
+
+  
+  .explore-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .explore-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .profile-pic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-pic img {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  .download-cv-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.download-cv-btn:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+.button-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+  @media (max-width: 768px) {
+    .home-container {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+  
+    .profile-pic {
+      margin-bottom: 2rem;
+    }
+  
+    .intro h1 {
+      font-size: 2.2rem;
+    }
+  }
+  .social-icons {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 2rem;
+  
+}
+.social-icons .icon {
+  color: #000; /* Default color: black */
+  transition: color 0.3s ease, transform 0.3s ease;
+  font-size: 1.8rem;
+}
+
+.social-icons a:hover .icon {
+  color: #007bff; /* Hover color: blue */
+  transform: scale(1.2);
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 1.8rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+
+  
